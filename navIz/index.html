@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="../fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+
+<body class="">
+        <div id="principal" class="bg-black w-16">
+
+                <div id="rcont" class="flex justify-end flex-col">
+
+                        <button id="rBtnHerramientas"
+                                class="text-white border rounded-xl px-2 py-2 mt-2 mx-2 hover:bg-gray-600 "><i
+                                        class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i>
+                        </button>
+                        <div id="rAccesos" class="flex flex-col pt-5">
+                                <Button class="text-white py-2 text-lg flex w-16 p-3   hover:bg-gray-800 items-center">
+                                        <i class="fa-solid fa-house px-2" style="color: #ffffff;"></i></Button>
+                                <Button class="text-white py-2 text-lg flex w-16 p-3   hover:bg-gray-800 items-center"><i
+                                                class="fa-brands fa-wpexplorer px-2"
+                                                style="color: #ffffff;"></i></Button>
+                                <Button class="text-white py-2 text-lg flex w-16 p-3   hover:bg-gray-800 items-center"><i
+                                                class="fa-solid fa-bell px-2" style="color: #ffffff;"></i></Button>
+                                <Button class="text-white py-2 text-lg flex w-16 p-3   hover:bg-gray-800 items-center"><i
+                                                class="fa-regular fa-envelope px-2"
+                                                style="color: #ffffff;"></i></Button>
+                        </div>
+                        <div id="rBtnEnviar" class="text-center ">
+                                <button class="text-white bg-blue-500 py-3 px-4 rounded-xl my-10 hover:bg-blue-600"><i
+                                                class="fa-solid fa-check" style="color: #ffffff;"></i></button>
+                        </div>
+                </div>
+                <div id="cont" class="flex justify-between p-2 items-center hidden">
+
+                        <div class="text-white text-3xl pl-4">Menu</div>
+                        <button id="btnHerramientas"
+                                class="text-white border rounded-xl px-2 py-2 mt-2 hover:bg-gray-600 "><i
+                                        class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i>
+                        </button>
+
+                </div>
+                <div id="accesos" class="grid justify-start hidden">
+                        <Button class="text-white py-1 text-lg flex w-60 pl-3 hover:bg-gray-800 items-center"> <i
+                                        class="fa-solid fa-house px-2" style="color: #ffffff;"></i> Inicio</Button>
+                        <Button class="text-white py-1 text-lg flex w-60 pl-3 hover:bg-gray-800 items-center"><i
+                                        class="fa-brands fa-wpexplorer px-2" style="color: #ffffff;"></i>
+                                Explorar</Button>
+                        <Button class="text-white py-1 text-lg flex w-60 pl-3 hover:bg-gray-800 items-center"><i
+                                        class="fa-solid fa-bell px-2" style="color: #ffffff;"></i>
+                                Notificaciones</Button>
+                        <Button class="text-white py-1 text-lg flex w-60 pl-3 hover:bg-gray-800 items-center"><i
+                                        class="fa-regular fa-envelope px-2" style="color: #ffffff;"></i>
+                                Mensajes</Button>
+                </div>
+                <div id="btnEnviar" class="text-center hidden">
+                        <button class="text-white bg-blue-500 py-3 px-12 rounded-full my-10 hover:bg-blue-600"><i
+                                        class="fa-solid fa-check" style="color: #ffffff;"></i> Enviar</button>
+                </div>
+        </div>
+        <script src="app.js"></script>
+</body>
+
+</html>
